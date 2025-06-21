@@ -1,0 +1,17 @@
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  blist = branch --list
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  tush = stash push -m
+  list = stash list
+  please = push --force-with-lease
+  amend = commit --amend --no-edit
+
+[core]
+  editor = code --wait
+
+[sequence]
+  editor = code --wait
